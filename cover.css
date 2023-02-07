@@ -53,6 +53,26 @@ body {
   max-width: 70em;
 }
 
+/* Links */
+
+a {
+  color: #FF206E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF206E;
+  text-decoration: underline;
+}
+
+.btn-pink {
+  border-width: 5px;
+}
+
+.btn-pink:hover {
+  border-color: #FF206E;
+  border-width: 5px;
+}
 
 /*
  * Header
