@@ -17,6 +17,16 @@
   }
 }
 
+/* Main page tweaks  */
+main p {
+  margin-bottom: 0.5em;
+}
+
+.profile-pic {
+  margin-top: 0.5em;
+  max-width: 90% !important;
+}
+
 
 /* Custom default button */
 .btn-secondary,
