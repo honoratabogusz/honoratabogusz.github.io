@@ -50,7 +50,7 @@ body {
 }
 
 .cover-container {
-  max-width: 70em;
+  max-width: 80em;
 }
 
 /* Links */
@@ -101,4 +101,8 @@ a:hover {
 .nav-masthead .active {
   color: black;
   border-bottom-color: black;
+}
+
+tr {
+  border-bottom: 1px #FF206E solid;
 }
