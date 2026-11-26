@@ -1,18 +1,21 @@
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Honorata Bogusz">
-    <title>Honorata Bogusz · Homepage</title>
+    <meta name="description" content="What Honorata Bogusz is reading and has read since 2014.">
+    <title>Honorata Bogusz · Reading</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
     <!-- Bootstrap core CSS -->
     <link href="./bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Custom styles for this template -->
+
+    <!-- Site theme -->
     <link href="cover.css" rel="stylesheet">
 
     <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-58VNLLD0HM"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-58VNLLD0HM"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -20,288 +23,314 @@
 
         gtag('config', 'G-58VNLLD0HM');
     </script>
-
   </head>
 
-<body class="d-flex h-100 text-left text-dark bg-light">
-    
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      <nav class="nav nav-masthead justify-content-center text-dark">
-        <a class="nav-link" href="index.html">Home</a>
-        <a class="nav-link" href="research.html">Research</a>
-        <a class="nav-link" href="Honorata_Bogusz_CV.pdf">CV</a>
-        <a class="nav-link" href="PhD_thesis.pdf">PhD thesis</a>
-        <a class="nav-link" href="reading.html">Reading</a>
-<!--         <a class="nav-link" href="outdoor.html">Outdoor</a>
- -->      </nav>
+<body>
+
+  <header class="site-header">
+    <div class="page">
+      <a class="brand" href="index.html">Honorata Bogusz<span class="dot">.</span></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="Honorata_Bogusz_CV.pdf">CV</a>
+        <a href="PhD_thesis.pdf">PhD thesis</a>
+        <a href="reading.html" aria-current="page">Reading</a>
+        <!-- <a href="outdoor.html">Outdoor</a> -->
+      </nav>
     </div>
   </header>
 
-  <main class="px-6">
+  <main class="page">
 
-    <h2>Currently read</h2>
+    <h1 class="page-title">Reading</h1>
+    <p class="page-lead">Books I've read since 2014.</p>
 
-    <ul>
-      <li>The Book of Why: The New Science of Cause and Effect (Judea Pearl, Dana Mackenzie)</li>
-      <li>Wygnaniec. 21 scen z życia Zygmunta Baumana (Adam Domosławski)</li>
-      <li>A Problem of Great Importance: Population, Race, and Power in the British Empire, 1918-1973 (Karl Ittmann)</li>
-    </ul>
+    <section class="current-reads">
+      <h2>Currently reading</h2>
+      <ul class="books">
+          <li><span class="book-title">The Book of Why: The New Science of Cause and Effect</span><span class="book-author">Judea Pearl, Dana Mackenzie</span></li>
+          <li><span class="book-title">Wygnaniec. 21 scen z życia Zygmunta Baumana</span><span class="book-author">Adam Domosławski</span></li>
+          <li><span class="book-title">A Problem of Great Importance: Population, Race, and Power in the British Empire, 1918-1973</span><span class="book-author">Karl Ittmann</span></li>
+      </ul>
+    </section>
 
-    <h2>2026</h2>
+    <details class="year-block" open>
+      <summary>2026 <span class="count tag">12 books</span></summary>
+      <ul class="books">
+          <li><span class="book-title">Polska na wojnie</span><span class="book-author">Zbigniew Parafianowicz</span></li>
+          <li><span class="book-title">Kłopot z Zełeńskim</span><span class="book-author">Zbigniew Parafianowicz</span></li>
+          <li><span class="book-title">Null</span><span class="book-author">Szczepan Twardoch</span></li>
+          <li><span class="book-title">Everything Is Tuberculosis</span><span class="book-author">John Green</span></li>
+          <li><span class="book-title">Rozdroże kruków</span><span class="book-author">Andrzej Sapkowski</span></li>
+          <li><span class="book-title">Rewolucja Ambicji</span><span class="book-author">Jakub Dymek</span></li>
+          <li><span class="book-title">The Fabric of Civilization: How Textiles Made the World</span><span class="book-author">Virginia Postrel</span></li>
+          <li><span class="book-title">Frozen in Time: The Fate of the Franklin Expedition</span><span class="book-author">Owen Beattie, John Geiger</span></li>
+          <li><span class="book-title">When States Come Out: Europe's Sexual Minorities and the Politics of Visibility</span><span class="book-author">Phillip M. Ayoub</span></li>
+          <li><span class="book-title">Packeis</span><span class="book-author">Simon Schwartz</span></li>
+          <li><span class="book-title">The Global Fight Against LGBTI Rights</span><span class="book-author">Kristina Stoeckl, Phillip M. Ayoub</span></li>
+          <li><span class="book-title">Prowadż swój pług przez kości umarłych</span><span class="book-author">Olga Tokarczuk</span></li>
+      </ul>
+    </details>
 
-    <ul>
-      <li>Polska na wojnie (Zbigniew Parafianowicz)</li>
-      <li>Kłopot z Zełeńskim (Zbigniew Parafianowicz)</li>
-      <li>Null (Szczepan Twardoch)</li>
-      <li>Everything Is Tuberculosis (John Green)</li>
-      <li>Rozdroże kruków (Andrzej Sapkowski)</li>
-      <li>Rewolucja Ambicji (Jakub Dymek)</li>
-      <li>The Fabric of Civilization: How Textiles Made the World (Virginia Postrel)</li>
-      <li>Frozen in Time: The Fate of the Franklin Expedition (Owen Beattie, John Geiger)</li>
-      <li>When States Come Out: Europe's Sexual Minorities and the Politics of Visibility (Phillip M. Ayoub)</li>
-      <li>Packeis (Simon Schwartz)</li>
-      <li>The Global Fight Against LGBTI Rights (Kristina Stoeckl, Phillip M. Ayoub)</li>
-      <li>Prowadż swój pług przez kości umarłych (Olga Tokarczuk)</li>
-    </ul>
+    <details class="year-block">
+      <summary>2025 <span class="count tag">11 books</span></summary>
+      <ul class="books">
+          <li><span class="book-title">Teoria feministyczna. Od marginesu do centrum</span><span class="book-author">bell hooks</span></li>
+          <li><span class="book-title">Orientalism</span><span class="book-author">Edward Said</span></li>
+          <li><span class="book-title">TOPR. Żeby inni mogli przeżyć</span><span class="book-author">Beata Sabała-Zielińska</span></li>
+          <li><span class="book-title">Polska Anarchia</span><span class="book-author">Paweł Jasienica</span></li>
+          <li><span class="book-title">Polska Jagiellonów</span><span class="book-author">Paweł Jasienica</span></li>
+          <li><span class="book-title">O mężczyznach, którzy nienawidzą kobiet</span><span class="book-author">Laura Bates</span></li>
+          <li><span class="book-title">Uwikłani w płeć</span><span class="book-author">Judith Butler, tł.: Karolina Krasuska</span></li>
+          <li><span class="book-title">Apostles of Mercy</span><span class="book-author">Lindsay Ellis</span></li>
+          <li><span class="book-title">Wieczna Lewica: Myśli i Aforyzmy</span><span class="book-author">Marcin Giełzak</span></li>
+          <li><span class="book-title">Polska Piastów</span><span class="book-author">Paweł Jasienica</span></li>
+          <li><span class="book-title">Wszystko mam bardziej. Życie w spektrum autyzmu</span><span class="book-author">Jacek Hołub</span></li>
+      </ul>
+    </details>
 
-    <h2>2025</h2>
+    <details class="year-block">
+      <summary>2024 <span class="count tag">11 books</span></summary>
+      <ul class="books">
+          <li><span class="book-title">A Mathematician's Lament</span><span class="book-author">Paul Lockhart</span></li>
+          <li><span class="book-title">Bisexuality</span><span class="book-author">Lewis Oakley</span></li>
+          <li><span class="book-title">Liberalizm zamiast demokracji</span><span class="book-author">Jan Śpiewak</span></li>
+          <li><span class="book-title">Poruszeni</span><span class="book-author">Magda Szcześniak</span></li>
+          <li><span class="book-title">Nierówności po polsku</span><span class="book-author">Paweł Bukowski, Michał Brzeziński, Jakub Sawulski</span></li>
+          <li><span class="book-title">Pokolenie 1989</span><span class="book-author">Jakub Sawulski</span></li>
+          <li><span class="book-title">Kto się boi gender</span><span class="book-author">Agnieszka Graff, Elżbieta Korolczuk</span></li>
+          <li><span class="book-title">Traumaland</span><span class="book-author">Michał Bilewicz</span></li>
+          <li><span class="book-title">Marriage, a history</span><span class="book-author">Stephanie Coontz</span></li>
+          <li><span class="book-title">Złoty wiek</span><span class="book-author">Marcin Piątkowski</span></li>
+          <li><span class="book-title">Chłopki. Opowieść o naszych babkach</span><span class="book-author">Joanna Kuciel-Frydryszak</span></li>
+      </ul>
+    </details>
 
-    <ul>
-      <li>Teoria feministyczna. Od marginesu do centrum (bell hooks)</li>
-      <li>Orientalism (Edward Said)</li>
-      <li>TOPR. Żeby inni mogli przeżyć (Beata Sabała-Zielińska)</li>
-      <li>Polska Anarchia (Paweł Jasienica)</li>
-      <li>Polska Jagiellonów (Paweł Jasienica)</li>
-      <li>O mężczyznach, którzy nienawidzą kobiet (Laura Bates)</li>
-      <li>Uwikłani w płeć (Judith Butler, tł.: Karolina Krasuska)</li>
-      <li>Apostles of Mercy (Lindsay Ellis)</li>
-      <li>Wieczna Lewica: Myśli i Aforyzmy (Marcin Giełzak)</li>
-      <li>Polska Piastów (Paweł Jasienica)</li>
-      <li>Wszystko mam bardziej. Życie w spektrum autyzmu (Jacek Hołub)</li>
-    </ul>
+    <details class="year-block">
+      <summary>2023 <span class="count tag">12 books</span></summary>
+      <ul class="books">
+          <li><span class="book-title">Aleja włókniarek</span><span class="book-author">Marta Madejska</span></li>
+          <li><span class="book-title">Moja ukochana i ja</span><span class="book-author">Renata Lis</span></li>
+          <li><span class="book-title">Gotowi na zmianę. O mężczyznach, męskości i miłości</span><span class="book-author">bell hooks</span></li>
+          <li><span class="book-title">The Two-Parent Privilege: How Americans Stopped Getting Married and Started Falling Behind</span><span class="book-author">Melissa S. Kearney</span></li>
+          <li><span class="book-title">Społeczeństwo populistów</span><span class="book-author">Przemysław Sadura, Sławomir Sierakowski</span></li>
+          <li><span class="book-title">Chłopcy. Idą po Polskę</span><span class="book-author">Marcin Kącki</span></li>
+          <li><span class="book-title">Przegryw: mężczyźni w pułapce gniewu i samotności</span><span class="book-author">Aleksandra Herzyk, Patrycja Wieczorkiewicz</span></li>
+          <li><span class="book-title">Godność proszę. O transpłciowości, gniewie i nadziei</span><span class="book-author">Maja Heban</span></li>
+          <li><span class="book-title">Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity</span><span class="book-author">Daron Acemoglu, Simon Johnson</span></li>
+          <li><span class="book-title">Pałace na wodzie. Tropem polskich bobrów</span><span class="book-author">Adam Robiński</span></li>
+          <li><span class="book-title">Podhale. Wszystko na sprzedaż</span><span class="book-author">Aleksander Gurgul</span></li>
+          <li><span class="book-title">Trudno powiedzieć. Co nauka mówi o rasie, chorobie, inteligencji i płci</span><span class="book-author">Łukasz Lamża</span></li>
+      </ul>
+    </details>
 
-    <h2>2024</h2>
+    <details class="year-block">
+      <summary>2022 <span class="count tag">8 books</span></summary>
+      <ul class="books">
+          <li><span class="book-title">Career and Family: Women’s Century-Long Journey toward Equity</span><span class="book-author">Claudia Goldin</span></li>
+          <li><span class="book-title">Demography: The Study of Human Population</span><span class="book-author">Jennifer Hickes Lundquist, Douglas L. Anderton, David Yaukey</span></li>
+          <li><span class="book-title">The Outsider</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">TOPR 2. Nie każdy wróci</span><span class="book-author">Beata Sabała-Zielińska</span></li>
+          <li><span class="book-title">Capitalist Realism</span><span class="book-author">Mark Fisher</span></li>
+          <li><span class="book-title">The Beauty Myth: How Images of Beauty Are Used Against Women</span><span class="book-author">Naomi Wolf</span></li>
+          <li><span class="book-title">Truth of the Divine</span><span class="book-author">Lindsay Ellis</span></li>
+          <li><span class="book-title">Axiom's End</span><span class="book-author">Lindsay Ellis</span></li>
+      </ul>
+    </details>
 
-    <ul>
-      <li>A Mathematician's Lament (Paul Lockhart)</li>
-      <li>Bisexuality (Lewis Oakley)</li>
-      <li>Liberalizm zamiast demokracji (Jan Śpiewak)</li>
-      <li>Poruszeni (Magda Szcześniak)</li>
-      <li>Nierówności po polsku (Paweł Bukowski, Michał Brzeziński, Jakub Sawulski)</li>
-      <li>Pokolenie 1989 (Jakub Sawulski)</li>
-      <li>Kto się boi gender (Agnieszka Graff, Elżbieta Korolczuk)</li>
-      <li>Traumaland (Michał Bilewicz)</li>
-      <li>Marriage, a history (Stephanie Coontz)</li>
-      <li>Złoty wiek (Marcin Piątkowski)</li>
-      <li>Chłopki. Opowieść o naszych babkach (Joanna Kuciel-Frydryszak)</li>
-    </ul>
-    
-    <h2>2023</h2>
+    <details class="year-block">
+      <summary>2021 <span class="count tag">11 books</span></summary>
+      <ul class="books">
+          <li><span class="book-title">Babel: Around the World in Twenty Languages</span><span class="book-author">Gaston Dorren</span></li>
+          <li><span class="book-title">Kapitał XXI. wieku</span><span class="book-author">Thomas Piketty</span></li>
+          <li><span class="book-title">Wniebowzięte. O stewardesach w PRL-u</span><span class="book-author">Anna Sulińska</span></li>
+          <li><span class="book-title">Fire & Blood</span><span class="book-author">George R.R. Martin</span></li>
+          <li><span class="book-title">Przyszło nam tu żyć. Reportaże z Rosji</span><span class="book-author">Jelena Kostiuczenko</span></li>
+          <li><span class="book-title">Niegrzeczne. Historie dzieci z ADHD, autyzmem i zespołem Aspergera</span><span class="book-author">Jacek Hołub</span></li>
+          <li><span class="book-title">Czuły narrator</span><span class="book-author">Olga Tokarczuk</span></li>
+          <li><span class="book-title">Światy równoległe. Czego uczą nas płaskoziemcy, homeopaci i różdżkarze</span><span class="book-author">Łukasz Lamża</span></li>
+          <li><span class="book-title">Olimpijki</span><span class="book-author">Anna Sulińska</span></li>
+          <li><span class="book-title">Baśń o wężowym sercu albo Wtóre słowo o Jakóbie Szeli</span><span class="book-author">Radek Rak</span></li>
+          <li><span class="book-title">Imię róży</span><span class="book-author">Umberto Eco</span></li>
+      </ul>
+    </details>
 
-    <ul>
-      <li>Aleja włókniarek (Marta Madejska)</li>
-      <li>Moja ukochana i ja (Renata Lis)</li>
-      <li>Gotowi na zmianę. O mężczyznach, męskości i miłości (bell hooks)</li>
-      <li>The Two-Parent Privilege: How Americans Stopped Getting Married and Started Falling Behind (Melissa S. Kearney)</li>
-      <li>Społeczeństwo populistów (Przemysław Sadura, Sławomir Sierakowski)</li>
-      <li>Chłopcy. Idą po Polskę (Marcin Kącki)</li>
-      <li>Przegryw: mężczyźni w pułapce gniewu i samotności (Aleksandra Herzyk, Patrycja Wieczorkiewicz)</li>
-      <li>Godność proszę. O transpłciowości, gniewie i nadziei (Maja Heban)</li>
-      <li>Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity (Daron Acemoglu, Simon Johnson)</li>
-      <li>Pałace na wodzie. Tropem polskich bobrów (Adam Robiński)</li>
-      <li>Podhale. Wszystko na sprzedaż (Aleksander Gurgul)</li>
-      <li>Trudno powiedzieć. Co nauka mówi o rasie, chorobie, inteligencji i płci (Łukasz Lamża)</li>
-    </ul>
-    
-    <h2>2022</h2>
+    <details class="year-block">
+      <summary>2020 <span class="count tag">15 books</span></summary>
+      <ul class="books">
+          <li><span class="book-title">Afrykański polonez</span><span class="book-author">Cyprian Kosiński</span></li>
+          <li><span class="book-title">Nowy wspaniały świat</span><span class="book-author">Aldous Huxley</span></li>
+          <li><span class="book-title">Lala</span><span class="book-author">Jacek Dehnel</span></li>
+          <li><span class="book-title">Małe życie</span><span class="book-author">Hanya Yanagihara</span></li>
+          <li><span class="book-title">Na marne</span><span class="book-author">Marta Sapała</span></li>
+          <li><span class="book-title">Joga światłem życia</span><span class="book-author">B.K.S. Iyengar</span></li>
+          <li><span class="book-title">Wzgórze psów</span><span class="book-author">Jakub Żulczyk</span></li>
+          <li><span class="book-title">Pył z landrynek. Hiszpańskie fiesty</span><span class="book-author">Katarzyna Kobylarczyk</span></li>
+          <li><span class="book-title">Porwanie Edgarda Mortary. Skandal, który pogrążył Państwo Kościelne</span><span class="book-author">David I. Kertzer</span></li>
+          <li><span class="book-title">O czym mówię, kiedy mówię o bieganiu</span><span class="book-author">Haruki Murakami</span></li>
+          <li><span class="book-title">Joga doskonała dla kobiet</span><span class="book-author">Geeta S. Iyengar</span></li>
+          <li><span class="book-title">Śmierć Komandora. Pojawia się idea</span><span class="book-author">Haruki Murakami</span></li>
+          <li><span class="book-title">Lud. Z grenlandzkiej wyspy</span><span class="book-author">Ilona Wiśniewska</span></li>
+          <li><span class="book-title">Księgi Jakubowe</span><span class="book-author">Olga Tokarczuk</span></li>
+          <li><span class="book-title">Czarne słońce</span><span class="book-author">Jakub Żulczyk</span></li>
+      </ul>
+    </details>
 
-    <ul>
-      <li>Career and Family: Women’s Century-Long Journey toward Equity (Claudia Goldin)</li>
-      <li>Demography: The Study of Human Population (Jennifer Hickes Lundquist, Douglas L. Anderton, David Yaukey)</li>
-      <li>The Outsider (Stephen King)</li>
-      <li>TOPR 2. Nie każdy wróci (Beata Sabała-Zielińska)</li>
-      <li>Capitalist Realism (Mark Fisher)</li>
-      <li>The Beauty Myth: How Images of Beauty Are Used Against Women (Naomi Wolf)</li>
-      <li>Truth of the Divine (Lindsay Ellis)</li>
-      <li>Axiom's End (Lindsay Ellis)</li>
-    </ul>
-    
-    <h2>2021</h2>
+    <details class="year-block">
+      <summary>2019 <span class="count tag">16 books</span></summary>
+      <ul class="books">
+          <li><span class="book-title">Poznań. Miasto grzechu</span><span class="book-author">Marcin Kącki</span></li>
+          <li><span class="book-title">Bukareszt. Kurz i krew</span><span class="book-author">Małgorzata Rejmer</span></li>
+          <li><span class="book-title">Opowiadania bizarne</span><span class="book-author">Olga Tokarczuk</span></li>
+          <li><span class="book-title">Można wybierać. 4 czerwca 1989</span><span class="book-author">Aleksandra Boćkowska</span></li>
+          <li><span class="book-title">Firestarter</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">Pet Sematary</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">Wszystko jest względne</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">Wielki las</span><span class="book-author">Zbigniew Nienacki</span></li>
+          <li><span class="book-title">Kultura jako źródło cierpień</span><span class="book-author">Sigmund Freud</span></li>
+          <li><span class="book-title">Sztuka kochania</span><span class="book-author">Michalina Wisłocka</span></li>
+          <li><span class="book-title">Zła godzina</span><span class="book-author">Gabriel García Márquez</span></li>
+          <li><span class="book-title">Światło jogi</span><span class="book-author">B.K.S. Iyengar</span></li>
+          <li><span class="book-title">Niepowtarzalny urok likwidacji. Reportaże z Polski lat 90.</span><span class="book-author">Piotr Lipiński, Michał Matys</span></li>
+          <li><span class="book-title">Duchowość na co dzień. Ścieżka współczesnego mistyka</span><span class="book-author">Maciej Wielobób</span></li>
+          <li><span class="book-title">North Korea: State of Paranoia</span><span class="book-author">Isaac Asimov</span></li>
+          <li><span class="book-title">Audyt</span><span class="book-author">Jacek Hugo-Bader</span></li>
+      </ul>
+    </details>
 
-    <ul>
-      <li>Babel: Around the World in Twenty Languages (Gaston Dorren)</li>
-      <li>Kapitał XXI. wieku (Thomas Piketty)</li>
-      <li>Wniebowzięte. O stewardesach w PRL-u (Anna Sulińska)</li>
-      <li>Fire & Blood (George R.R. Martin)</li>
-      <li>Przyszło nam tu żyć. Reportaże z Rosji (Jelena Kostiuczenko)</li>
-      <li>Niegrzeczne. Historie dzieci z ADHD, autyzmem i zespołem Aspergera (Jacek Hołub)</li>
-      <li>Czuły narrator (Olga Tokarczuk)</li>
-      <li>Światy równoległe. Czego uczą nas płaskoziemcy, homeopaci i różdżkarze (Łukasz Lamża)</li>
-      <li>Olimpijki (Anna Sulińska)</li>
-      <li>Baśń o wężowym sercu albo Wtóre słowo o Jakóbie Szeli (Radek Rak)</li>
-      <li>Imię róży (Umberto Eco)</li>
-    </ul>
-    
-    <h2>2020</h2>
+    <details class="year-block">
+      <summary>2018 <span class="count tag">16 books</span></summary>
+      <ul class="books">
+          <li><span class="book-title">End of Watch</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">Bratnia dusza</span><span class="book-author">Arielle Ford</span></li>
+          <li><span class="book-title">Duchowe życie zwierząt</span><span class="book-author">Peter Wohlleben</span></li>
+          <li><span class="book-title">Psychologia Jogi. Wprowadzenie do Jogasutr Patańdźalego</span><span class="book-author">Maciej Wielobób</span></li>
+          <li><span class="book-title">The Dark Tower</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">To</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">Zamek</span><span class="book-author">Franz Kafka</span></li>
+          <li><span class="book-title">Rytuał gejszy. Japoński sekret promiennej cery</span><span class="book-author">Victoria Tsai</span></li>
+          <li><span class="book-title">Stukostrachy</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">Sekrety urody Koreanek. Elementarz pielęgnacji</span><span class="book-author">Charlotte Cho</span></li>
+          <li><span class="book-title">Słuchaj pieśni wiatru. Flipper roku 1973</span><span class="book-author">Haruki Murakami</span></li>
+          <li><span class="book-title">Jądro dziwności. Nowa Rosja</span><span class="book-author">Peter Pomerantsev</span></li>
+          <li><span class="book-title">Żar. Oddech Afryki</span><span class="book-author">Dariusz Rosiak</span></li>
+          <li><span class="book-title">Motory rewolucji</span><span class="book-author">Grzegorz Szymanik</span></li>
+          <li><span class="book-title">Dom nad rzeką Loes</span><span class="book-author">Mateusz Janiszewski</span></li>
+          <li><span class="book-title">A Dance with Dragons</span><span class="book-author">George R.R. Martin</span></li>
+      </ul>
+    </details>
 
-    <ul>
-      <li>Afrykański polonez (Cyprian Kosiński)</li>
-      <li>Nowy wspaniały świat (Aldous Huxley)</li>
-      <li>Lala (Jacek Dehnel)</li>
-      <li>Małe życie (Hanya Yanagihara)</li>
-      <li>Na marne (Marta Sapała)</li>
-      <li>Joga światłem życia (B.K.S. Iyengar)</li>
-      <li>Wzgórze psów (Jakub Żulczyk)</li>
-      <li>Pył z landrynek. Hiszpańskie fiesty (Katarzyna Kobylarczyk)</li>
-      <li>Porwanie Edgarda Mortary. Skandal, który pogrążył Państwo Kościelne (David I. Kertzer)</li>
-      <li>O czym mówię, kiedy mówię o bieganiu (Haruki Murakami)</li>
-      <li>Joga doskonała dla kobiet (Geeta S. Iyengar)</li>
-      <li>Śmierć Komandora. Pojawia się idea (Haruki Murakami)</li>
-      <li>Lud. Z grenlandzkiej wyspy (Ilona Wiśniewska)</li>
-      <li>Księgi Jakubowe (Olga Tokarczuk)</li>
-      <li>Czarne słońce (Jakub Żulczyk)</li>
-    </ul>
+    <details class="year-block">
+      <summary>2017 <span class="count tag">17 books</span></summary>
+      <ul class="books">
+          <li><span class="book-title">Serce pasowało. Opowieść o polskiej transplantologii</span><span class="book-author">Anna Mateja</span></li>
+          <li><span class="book-title">A Feast for Crows</span><span class="book-author">George R.R. Martin</span></li>
+          <li><span class="book-title">A Storm of Swords</span><span class="book-author">George R.R. Martin</span></li>
+          <li><span class="book-title">A Clash of Kings</span><span class="book-author">George R.R. Martin</span></li>
+          <li><span class="book-title">Sezon burz</span><span class="book-author">Andrzej Sapkowski</span></li>
+          <li><span class="book-title">Game of Thrones</span><span class="book-author">George R.R. Martin</span></li>
+          <li><span class="book-title">Strategia antylop</span><span class="book-author">Jean Hatzfeld</span></li>
+          <li><span class="book-title">Dziwne kamienie. Opowieści ze Wschodu i z Zachodu</span><span class="book-author">Peter Hessler</span></li>
+          <li><span class="book-title">Żydzi i słowa</span><span class="book-author">Amos Oz, Fania Oz-Salzberger</span></li>
+          <li><span class="book-title">Witajcie w raju. Reportaże o przemyśle turystycznym</span><span class="book-author">Jennie Dielemans</span></li>
+          <li><span class="book-title">Skucha</span><span class="book-author">Jacek Hugo-Bader</span></li>
+          <li><span class="book-title">Milczący lama. Buriacja na pograniczu światów</span><span class="book-author">Albert Jawłowski</span></li>
+          <li><span class="book-title">Krivoklat</span><span class="book-author">Jacek Dehnel</span></li>
+          <li><span class="book-title">Oczy zasypane piaskiem</span><span class="book-author">Paweł Smoleński</span></li>
+          <li><span class="book-title">Good night, Dżerzi</span><span class="book-author">Janusz Głowacki</span></li>
+          <li><span class="book-title">Nie przeproszę, że urodziłam. Historie rodzin z in vitro</span><span class="book-author">Karolina Domagalska</span></li>
+          <li><span class="book-title">Angole</span><span class="book-author">Ewa Winnicka</span></li>
+      </ul>
+    </details>
 
-    <h2>2019</h2>
-    <ul>
-      <li>Poznań. Miasto grzechu (Marcin Kącki)</li>
-      <li>Bukareszt. Kurz i krew (Małgorzata Rejmer)</li>
-      <li>Opowiadania bizarne (Olga Tokarczuk)</li>
-      <li>Można wybierać. 4 czerwca 1989 (Aleksandra Boćkowska)</li>
-      <li>Firestarter (Stephen King)</li>
-      <li>Pet Sematary (Stephen King)</li>
-      <li>Wszystko jest względne (Stephen King)</li>
-      <li>Wielki las (Zbigniew Nienacki)</li>
-      <li>Kultura jako źródło cierpień (Sigmund Freud)</li>
-      <li>Sztuka kochania (Michalina Wisłocka)</li>
-      <li>Zła godzina (Gabriel García Márquez)</li>
-      <li>Światło jogi (B.K.S. Iyengar)</li>
-      <li>Niepowtarzalny urok likwidacji. Reportaże z Polski lat 90. (Piotr Lipiński, Michał Matys)</li>
-      <li>Duchowość na co dzień. Ścieżka współczesnego mistyka (Maciej Wielobób)</li>
-      <li>North Korea: State of Paranoia (Isaac Asimov)</li>
-      <li>Audyt (Jacek Hugo-Bader)</li>
-    </ul>
+    <details class="year-block">
+      <summary>2016 <span class="count tag">18 books</span></summary>
+      <ul class="books">
+          <li><span class="book-title">Żydzi. Opowieści niepoprawne politycznie</span><span class="book-author">Piotr Zychowicz</span></li>
+          <li><span class="book-title">Izrael już nie frunie</span><span class="book-author">Paweł Smoleński</span></li>
+          <li><span class="book-title">Zielone migdały, czyli po co światu Kurdowie</span><span class="book-author">Paweł Smoleński</span></li>
+          <li><span class="book-title">Białystok. Biała siła, czarna pamięć</span><span class="book-author">Marcin Kącki</span></li>
+          <li><span class="book-title">Przemytnik doskonały. Jak transportować tony kokainy i żyć szczęśliwie</span><span class="book-author">Luca Rastello</span></li>
+          <li><span class="book-title">Miasto i psy</span><span class="book-author">Mario Vargas Llosa</span></li>
+          <li><span class="book-title">Czasy secondhand. Koniec czerwonego człowieka</span><span class="book-author">Swietłana Aleksijewicz</span></li>
+          <li><span class="book-title">Kocia kołyska</span><span class="book-author">Kurt Vonnegut</span></li>
+          <li><span class="book-title">Znalezione nie kradzione</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">Zniewolony umysł</span><span class="book-author">Czesław Miłosz</span></li>
+          <li><span class="book-title">Heban</span><span class="book-author">Ryszard Kapuściński</span></li>
+          <li><span class="book-title">Rzeźnia numer pięć</span><span class="book-author">Kurt Vonnegut</span></li>
+          <li><span class="book-title">1984</span><span class="book-author">George Orwell</span></li>
+          <li><span class="book-title">Jezus ośmieszony. Esej apologetyczny i sceptyczny</span><span class="book-author">Leszek Kołakowski</span></li>
+          <li><span class="book-title">Dżuma</span><span class="book-author">Albert Camus</span></li>
+          <li><span class="book-title">Kongres futurologiczny</span><span class="book-author">Stanisław Lem</span></li>
+          <li><span class="book-title">Zdążyć przed Panem Bogiem</span><span class="book-author">Hanna Krall</span></li>
+          <li><span class="book-title">Pianistka</span><span class="book-author">Elfriede Jelinek</span></li>
+      </ul>
+    </details>
 
-    <h2>2018</h2>
-    <ul>
-      <li>End of Watch (Stephen King)</li>
-      <li>Bratnia dusza (Arielle Ford)</li>
-      <li>Duchowe życie zwierząt (Peter Wohlleben)</li>
-      <li>Psychologia Jogi. Wprowadzenie do Jogasutr Patańdźalego (Maciej Wielobób)</li>
-      <li>The Dark Tower (Stephen King)</li>
-      <li>To (Stephen King)</li>
-      <li>Zamek (Franz Kafka)</li>
-      <li>Rytuał gejszy. Japoński sekret promiennej cery (Victoria Tsai)</li>
-      <li>Stukostrachy (Stephen King)</li>
-      <li>Sekrety urody Koreanek. Elementarz pielęgnacji (Charlotte Cho)</li>
-      <li>Słuchaj pieśni wiatru. Flipper roku 1973 (Haruki Murakami)</li>
-      <li>Jądro dziwności. Nowa Rosja (Peter Pomerantsev)</li>
-      <li>Żar. Oddech Afryki (Dariusz Rosiak)</li>
-      <li>Motory rewolucji (Grzegorz Szymanik)</li>
-      <li>Dom nad rzeką Loes (Mateusz Janiszewski)</li>
-      <li>A Dance with Dragons (George R.R. Martin)</li>
-    </ul>
+    <details class="year-block">
+      <summary>2015 <span class="count tag">18 books</span></summary>
+      <ul class="books">
+          <li><span class="book-title">Inny Świat. Zapiski sowieckie</span><span class="book-author">Gustaw Herling-Grudziński</span></li>
+          <li><span class="book-title">Maus. Opowieść ocalałego</span><span class="book-author">Art Spiegelman</span></li>
+          <li><span class="book-title">Czarnobylska modlitwa. Kronika przyszłości</span><span class="book-author">Swietłana Aleksijewicz</span></li>
+          <li><span class="book-title">Szewcy</span><span class="book-author">Stanisław Ignacy Witkiewicz</span></li>
+          <li><span class="book-title">Ferdydurke</span><span class="book-author">Witold Gombrowicz</span></li>
+          <li><span class="book-title">Sklepy cynamonowe</span><span class="book-author">Bruno Schulz</span></li>
+          <li><span class="book-title">The Philosophy of Andy Warhol</span><span class="book-author">Andy Warhol</span></li>
+          <li><span class="book-title">Granica</span><span class="book-author">Zofia Nałkowska</span></li>
+          <li><span class="book-title">Przedwiośnie</span><span class="book-author">Stefan Żeromski</span></li>
+          <li><span class="book-title">Dzienniki kołymskie</span><span class="book-author">Jacek Hugo-Bader</span></li>
+          <li><span class="book-title">Chłopi</span><span class="book-author">Stanisław Reymont</span></li>
+          <li><span class="book-title">Pan Mercedes</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">Wesele</span><span class="book-author">Stanisław Wyspiański</span></li>
+          <li><span class="book-title">Przebudzenie</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">Erystyka. Sztuka prowadzenia sporów</span><span class="book-author">Arthur Schopenhauer</span></li>
+          <li><span class="book-title">Jądro ciemności</span><span class="book-author">Joseph Conrad</span></li>
+          <li><span class="book-title">Ojciec chrzestny</span><span class="book-author">Mario Puzo</span></li>
+          <li><span class="book-title">Lalka</span><span class="book-author">Bolesław Prus</span></li>
+      </ul>
+    </details>
 
-    <h2>2017</h2>
-    <ul>
-      <li>Serce pasowało. Opowieść o polskiej transplantologii (Anna Mateja)</li>
-      <li>A Feast for Crows (George R.R. Martin)</li>
-      <li>A Storm of Swords (George R.R. Martin)</li>
-      <li>A Clash of Kings (George R.R. Martin)</li>
-      <li>Sezon burz (Andrzej Sapkowski)</li>
-      <li>Game of Thrones (George R.R. Martin)</li>
-      <li>Strategia antylop (Jean Hatzfeld)</li>
-      <li>Dziwne kamienie. Opowieści ze Wschodu i z Zachodu (Peter Hessler)</li>
-      <li>Żydzi i słowa (Amos Oz, Fania Oz-Salzberger)</li>
-      <li>Witajcie w raju. Reportaże o przemyśle turystycznym (Jennie Dielemans)</li>
-      <li>Skucha (Jacek Hugo-Bader)</li>
-      <li>Milczący lama. Buriacja na pograniczu światów (Albert Jawłowski)</li>
-      <li>Krivoklat (Jacek Dehnel)</li>
-      <li>Oczy zasypane piaskiem (Paweł Smoleński)</li>
-      <li>Good night, Dżerzi (Janusz Głowacki)</li>
-      <li>Nie przeproszę, że urodziłam. Historie rodzin z in vitro (Karolina Domagalska)</li>
-      <li>Angole (Ewa Winnicka)</li>
-    </ul>
-
-    <h2>2016</h2>
-    <ul>
-      <li>Żydzi. Opowieści niepoprawne politycznie (Piotr Zychowicz)</li>
-      <li>Izrael już nie frunie (Paweł Smoleński)</li>
-      <li>Zielone migdały, czyli po co światu Kurdowie (Paweł Smoleński)</li>
-      <li>Białystok. Biała siła, czarna pamięć (Marcin Kącki)</li>
-      <li>Przemytnik doskonały. Jak transportować tony kokainy i żyć szczęśliwie (Luca Rastello)</li>
-      <li>Miasto i psy (Mario Vargas Llosa)</li>
-      <li>Czasy secondhand. Koniec czerwonego człowieka (Swietłana Aleksijewicz)</li>
-      <li>Kocia kołyska (Kurt Vonnegut)</li>
-      <li>Znalezione nie kradzione (Stephen King)</li>
-      <li>Zniewolony umysł (Czesław Miłosz)</li>
-      <li>Heban (Ryszard Kapuściński)</li>
-      <li>Rzeźnia numer pięć (Kurt Vonnegut)</li>
-      <li>1984 (George Orwell)</li>
-      <li>Jezus ośmieszony. Esej apologetyczny i sceptyczny (Leszek Kołakowski)</li>
-      <li>Dżuma (Albert Camus)</li>
-      <li>Kongres futurologiczny (Stanisław Lem)</li>
-      <li>Zdążyć przed Panem Bogiem (Hanna Krall)</li>
-      <li>Pianistka (Elfriede Jelinek)</li>
-    </ul>
-
-    <h2>2015</h2>
-    <ul>
-      <li>Inny Świat. Zapiski sowieckie (Gustaw Herling-Grudziński)</li>
-      <li>Maus. Opowieść ocalałego (Art Spiegelman)</li>
-      <li>Czarnobylska modlitwa. Kronika przyszłości (Swietłana Aleksijewicz)</li>
-      <li>Szewcy (Stanisław Ignacy Witkiewicz)</li>
-      <li>Ferdydurke (Witold Gombrowicz)</li>
-      <li>Sklepy cynamonowe (Bruno Schulz)</li>
-      <li>The Philosophy of Andy Warhol (Andy Warhol)</li>
-      <li>Granica (Zofia Nałkowska)</li>
-      <li>Przedwiośnie (Stefan Żeromski)</li>
-      <li>Dzienniki kołymskie (Jacek Hugo-Bader)</li>
-      <li>Chłopi (Stanisław Reymont)</li>
-      <li>Pan Mercedes (Stephen King)</li>
-      <li>Wesele (Stanisław Wyspiański)</li>
-      <li>Przebudzenie (Stephen King)</li>
-      <li>Erystyka. Sztuka prowadzenia sporów (Arthur Schopenhauer)</li>
-      <li>Jądro ciemności (Joseph Conrad)</li>
-      <li>Ojciec chrzestny (Mario Puzo)</li>
-      <li>Lalka (Bolesław Prus)</li>
-    </ul>
-
-    <h2>2014</h2>
-    <ul>
-      <li>Dziady (Adam Mickiewicz)</li>
-      <li>Bastion (Stephen King)</li>
-      <li>Buszujący w zbożu (J.D. Salinger)</li>
-      <li>Tango (Sławomir Mrożek)</li>
-      <li>Misery (Stephen King)</li>
-      <li>Folwark zwierzęcy (George Orwell)</li>
-      <li>On wrócił (Timur Vermes)</li>
-      <li>Przygoda z owcą (Haruki Murakami)</li>
-      <li>Inferno (Dan Brown)</li>
-      <li>Studium w szkarłacie (Arthur Conan Doyle)</li>
-      <li>Zbrodnia i kara (Fiodor Dostojewski)</li>
-      <li>Doktor Sen (Stephen King)</li>
-      <li>Lśnienie (Stephen King)</li>
-      <li>Obfite piersi, pełne biodra (Mo Yan)</li>
-      <li>Wilk stepowy (Hermann Hesse)</li>
-      <li>Pani Jeziora (Andrzej Sapkowski)</li>
-      <li>Wieża Jaskółki (Andrzej Sapkowski)</li>
-      <li>Chrzest ognia (Andrzej Sapkowski)</li>
-      <li>Czas pogardy (Andrzej Sapkowski)</li>
-      <li>Krew elfów (Andrzej Sapkowski)</li>
-    </ul>
+    <details class="year-block">
+      <summary>2014 <span class="count tag">20 books</span></summary>
+      <ul class="books">
+          <li><span class="book-title">Dziady</span><span class="book-author">Adam Mickiewicz</span></li>
+          <li><span class="book-title">Bastion</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">Buszujący w zbożu</span><span class="book-author">J.D. Salinger</span></li>
+          <li><span class="book-title">Tango</span><span class="book-author">Sławomir Mrożek</span></li>
+          <li><span class="book-title">Misery</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">Folwark zwierzęcy</span><span class="book-author">George Orwell</span></li>
+          <li><span class="book-title">On wrócił</span><span class="book-author">Timur Vermes</span></li>
+          <li><span class="book-title">Przygoda z owcą</span><span class="book-author">Haruki Murakami</span></li>
+          <li><span class="book-title">Inferno</span><span class="book-author">Dan Brown</span></li>
+          <li><span class="book-title">Studium w szkarłacie</span><span class="book-author">Arthur Conan Doyle</span></li>
+          <li><span class="book-title">Zbrodnia i kara</span><span class="book-author">Fiodor Dostojewski</span></li>
+          <li><span class="book-title">Doktor Sen</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">Lśnienie</span><span class="book-author">Stephen King</span></li>
+          <li><span class="book-title">Obfite piersi, pełne biodra</span><span class="book-author">Mo Yan</span></li>
+          <li><span class="book-title">Wilk stepowy</span><span class="book-author">Hermann Hesse</span></li>
+          <li><span class="book-title">Pani Jeziora</span><span class="book-author">Andrzej Sapkowski</span></li>
+          <li><span class="book-title">Wieża Jaskółki</span><span class="book-author">Andrzej Sapkowski</span></li>
+          <li><span class="book-title">Chrzest ognia</span><span class="book-author">Andrzej Sapkowski</span></li>
+          <li><span class="book-title">Czas pogardy</span><span class="book-author">Andrzej Sapkowski</span></li>
+          <li><span class="book-title">Krew elfów</span><span class="book-author">Andrzej Sapkowski</span></li>
+      </ul>
+    </details>
 
   </main>
 
-  <footer class="mt-auto text-dark text-center">
-    <a href="https://www.linkedin.com/in/honoratabogusz/">LinkedIn</a>,  
-    <a href="https://bsky.app/profile/honoratabogusz.bsky.social">BlueSky</a>,  
-    <a href="https://scholar.google.com/citations?user=-ktzjTMAAAAJ">Google Scholar</a>,
-    <a href="https://orcid.org/0000-0002-7089-4893">ORCID</a>
-    <p>h.bogusz@uw.edu.pl</p>
+  <footer class="site-footer">
+    <div class="page">
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/honoratabogusz/">LinkedIn</a>
+        <a href="https://bsky.app/profile/honoratabogusz.bsky.social">Bluesky</a>
+        <a href="https://scholar.google.com/citations?user=-ktzjTMAAAAJ">Google Scholar</a>
+        <a href="https://orcid.org/0000-0002-7089-4893">ORCID</a>
+      </div>
+      <a href="mailto:h.bogusz@uw.edu.pl">h.bogusz@uw.edu.pl</a>
+    </div>
   </footer>
-</div>    
+
 </body>
 </html>
